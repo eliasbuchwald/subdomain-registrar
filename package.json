@@ -76,7 +76,7 @@
     "html-loader": "^0.5.1",
     "idna-uts46": "1.1.0",
     "js-sha3": "0.6.1",
-    "punycode": "2.1.0",
+    "punycode": "2.1.1",
     "truffle-default-builder": "^2.0.0",
     "underscore": "^1.8.3"
   }
