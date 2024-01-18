@@ -57,7 +57,9 @@
     "build": "webpack",
     "dev": "webpack-dev-server",
     "prepublishOnly": "truffle compile && truffle networks --clean",
-    "lint": "solium --dir ./contracts"
+    "lint": "solium --dir ./contracts",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "watch": {
     "test": {
@@ -78,6 +80,8 @@
     "js-sha3": "0.6.1",
     "punycode": "2.1.0",
     "truffle-default-builder": "^2.0.0",
-    "underscore": "^1.8.3"
-  }
+    "underscore": "^1.8.3",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
