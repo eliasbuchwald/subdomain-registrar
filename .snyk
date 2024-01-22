@@ -1,0 +1,24 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - truffle-default-builder > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-types > lodash:
+        patched: '2024-01-22T21:15:39.980Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-default-builder > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-types > lodash
+    - truffle-default-builder > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash:
+        patched: '2024-01-22T21:15:39.980Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-default-builder > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-traverse > lodash
+    - truffle-default-builder > babel-preset-es2015 > babel-plugin-transform-es2015-block-scoping > babel-template > lodash:
+        patched: '2024-01-22T21:15:39.980Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          truffle-default-builder > babel-preset-es2015 >
+          babel-plugin-transform-es2015-block-scoping > babel-template > lodash
