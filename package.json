@@ -70,8 +70,8 @@
     }
   },
   "dependencies": {
-    "@ensdomains/ens": "^0.4.0",
-    "@ensdomains/ethregistrar": "^2.0.0",
+    "@ensdomains/ens": "^0.6.2",
+    "@ensdomains/ethregistrar": "^2.0.5",
     "eth-ens-namehash": "^2.0.0",
     "html-loader": "^0.5.1",
     "idna-uts46": "1.1.0",
